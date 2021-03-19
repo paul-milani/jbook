@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "publishConfig": { "access": "public"},
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
-  "files": [ "dist" ],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "tsc --watch --preserveWatchOutput",
     "prepublishOnly": "tsc"
@@ -16,9 +20,9 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
+    "@jsnote-pmcc/local-client": "^1.0.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "http-proxy-middleware": "^1.0.6",
-    "@jsnote-pmcc/local-client": "^0.1.0"
+    "http-proxy-middleware": "^1.0.6"
   }
 }

@@ -1,8 +1,12 @@
 {
   "name": "@jsnote-pmcc/local-client",
-  "version": "0.1.0",
-  "publishConfig": { "access": "public"},
-  "files": [ "build" ],
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "build"
+  ],
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
     "@monaco-editor/react": "3.7.5",
